@@ -1,0 +1,353 @@
+.TopPage {
+  justify-content: center;
+}
+
+.Page {
+  width: 100vw;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.TopperBox {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.TopperMenu {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.Border {
+  display: flex;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  margin-top: 50px;
+}
+
+p {
+  width: 240px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.WithRightBorder {
+  width: 238px;
+  border-right: 2px solid #000000;
+}
+
+.LogoBox {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.Logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+h1 {
+  width: 50%;
+  text-align: left;
+  font-weight: 200;
+  font-size: 25px;
+  transform: translate(0px, -90px);
+}
+
+.Scribble {
+  display: flex;
+  width: 100vw;
+  transform: translate(0px, -20px);
+}
+
+.ScrollButtonBox {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.ScrollButton {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.ScrollBorder {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 100px;
+}
+
+.ButtonText {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.ScrollArrow {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.PageTitleBox {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.PageTitle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  text-align: left;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: left;
+  color: #ed4e24;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+}
+.SideScrollBox {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.SideScroll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transform: translate(-50px, 0px);
+}
+.SideArrowBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SideArrow {
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+
+.GalleryPic {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  margin: 10px;
+}
+.HostContainer {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.HostCardBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.HostCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  background-color: #ffff;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  transform: translate(-20px, 0px);
+}
+
+.HostPic {
+  width: 100%;
+  display: flex;
+}
+.HostName {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.HostBio {
+  font-weight: 200;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.NextEventsBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Stroke {
+  width: 200px;
+}
+
+.EventListBox {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.EventList {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #000000;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+.EventDate {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 5px;
+  margin: 0;
+}
+.EventName {
+  font-weight: 200;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.SeeAllEventsBox {
+  display: flex;
+}
+
+.SeeAllEvents {
+  color: #ed4e24;
+  text-transform: uppercase;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.PastEventsListBox {
+  display: flex;
+  margin-top: 50px;
+}
+
+.PastEventsList {
+  display: flex;
+}
+
+.PastEventCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  text-align: left;
+}
+
+.PastEventDate {
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #ed4e24;
+}
+
+.PastEventPic {
+  display: flex;
+  width: 200px;
+  height: auto;
+}
+
+.PastEventDescription {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ProductCardListBox {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  margin-top: 50px;
+  text-align: left;
+}
+.ShopText {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.ProductCardList {
+  display: flex;
+}
+.ProductCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+}
+
+.ProductPic {
+  display: flex;
+  width: 200px;
+  height: auto;
+}
+.ProductDetails {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.ProductDescription {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+.ProductPrice {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+
+.SocialBox {
+  background-color: #ed4e24;
+  position: fixed;
+  display: flex;
+  right: 10px;
+  top: 50%;
+  z-index: 1000;
+}
+
+.SocialLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.SocialIcon {
+  margin: 10px;
+}
